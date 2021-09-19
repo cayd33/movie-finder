@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Find Movie</title>
+	<!--Bootswatch Theme-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--Main CSS-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Find Movie & Search-->
+<div class="container">
+	<div class="jumbotron">
+		<a class="text-center " href="index.html">Find Movie</a>
+		<form id="searchForm">
+			<label for="searchText"></label><input type="text" class="form-control" id="searchText"
+												   placeholder="Find Movie...">
+		</form>
+	</div>
+</div>
+<!--Output-->
+<div class="container">
+	<div id="movies" class="row"></div>
+</div>
+<!--Jquery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!--Ajax Library-->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!--Main JS-->
+<script src="js/main.js"></script>
+</body>
+</html>

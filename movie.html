@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Movie Info</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--Tittle-->
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html">Movie Info</a>
+		</div>
+	</div>
+</nav>
+<!--Output-->
+<div class="container">
+	<div id="movie" class="info"></div>
+</div>
+<!--Jquery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!--Ajax Library-->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!--Main JS-->
+<script src="js/main.js"></script>
+<script>
+    getMovie();
+</script>
+</body>
+</html>
